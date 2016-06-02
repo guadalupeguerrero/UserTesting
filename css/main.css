@@ -1,0 +1,432 @@
+.nav-blue{
+	background-color: rgba(0,0,0,0.5)!important;
+}
+
+html{
+	font-size: 10px;
+	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
+.text-blue{
+	color: #2794C7;
+}
+
+.text-white{
+	color: white;
+}
+
+/*Propiedades de la imagen*/
+.img-principal{
+	background-image:url(../image/large.jpg);
+	height: 52rem;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center;
+
+	background-size:cover;
+}
+
+.brightness {-webkit-filter: brightness(0.5);}
+
+
+.title-principal{
+	 padding-top: 15rem;
+	 text-align:center;
+	font-weight: 200;
+	font-size:4.5rem;
+}
+.titulo-header {
+    position: absolute;
+    top: 0;
+}
+ 
+ /*Propiedades del logo*/
+.navbar-default
+	.navbar-brand
+	{color:white;
+}	
+
+	.navbar-default
+	.navbar-brand:hover,
+	.navbar-default
+	.navbar-brand:focus,
+	.navbar-default
+	.navbar-brand:active,
+	.navbar-default
+	.navbar-brand.active{
+	color:white;
+}
+
+/*Color de la barra de navegación*/
+.navbar-default{
+	background-color: #373737;
+	border-color: transparent;
+}
+
+/*Hover de la barra de navegación*/
+	.navbar-default
+	.nav li a:hover,
+	.navbar-default
+	.nav li a:focus
+	{color:#2794C7;outline:0}
+
+
+.navbar-default .nav li a
+	{font-family:OpenSans,Arial,sans-serif;
+	font-size: 1.5rem;
+	color:#fff}
+
+/*Ocultar el background de la barra de navegación en 768px*/
+
+@media (min-width:968px){.navbar-default
+	{background-color:transparent;
+	padding:2.5rem 0;-webkit-transition:padding.3s;
+	-moz-transition:padding .3s;
+	transition:padding .3s;
+	border:0}
+
+.navbar-default .nav li a{
+	letter-spacing:0rem;
+	padding-left: 0.2rem;
+	}
+
+	.navbar-default
+	.navbar-brand
+	{font-size:2rem;
+	padding top: 1rem; 
+	-webkit-transition:all .3s;
+	-moz-transition:all .3s;
+	transition:all .3s}
+
+	.navbar-default
+	.navbar-nav>.active>a
+	{border-radius:3px}
+
+	.navbar-default.navbar-shrink
+	{background-color:#222;padding:1rem 0}
+
+	.navbar-default.navbar-shrink .navbar-brand
+	{font-size:1.5rem}
+}
+
+/*Barra azul principal*/
+
+.barra-blue{
+	position: absolute;
+	background-color: rgba(0, 96, 139, 0.9);
+	height: 12rem;
+	width: 100%;
+	z-index: 1;
+	top: 40.1rem;
+	opacity: 0.6;
+}
+
+.title-position{
+	position:absolute;
+	z-index: 2;
+}
+
+.pdt6{
+	padding-top: 2rem;
+}
+
+.pdt65{
+	padding-top: 6rem;
+}
+
+.text-prueba{
+    font-size: 1.1rem;
+  }
+.title-prueba{
+    font-size: 1.8rem;
+  }
+
+
+.btn-default{
+	position: absolute;
+	margin-top: 4rem;
+	margin-left: 25rem;
+    border: solid 0.2rem #fff;
+    font-size: 1.4rem;
+    color: #fff;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+    z-index: 2;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active {
+
+   border: solid 0.2rem #fff;
+    color: #2794C7;
+    background: #fff;
+}
+
+.titulos{
+	font-weight: 200;
+	padding-top: 2rem;
+}
+
+.marco{
+	background: white;
+	width: 10rem;
+	height: 10rem;
+	border-radius: 7rem;
+	box-shadow: 0px 1px 3px 1px rgba(199,199,199,1);
+	margin-left: 35%;
+}
+
+@media screen and (min-width : 768px) {
+  .marco{
+    margin-left: 43%;
+  }
+}
+
+@media screen and (max-width : 768px) {
+  .user-testing{
+    display: none;
+  }
+}
+
+.size-icon{
+	margin-top: 2.8rem;
+}
+
+.content-service{
+	font-size: 1.8rem;
+	font-weight: 200;
+	padding-bottom: 10rem;
+}
+
+hr{
+	position: relative;
+	margin-top: 6rem;	
+	margin-bottom: auto;
+	padding-bottom: 10rem;
+	z-index: 1;
+
+}
+.test{
+	position: relative;
+}
+/*.separador{
+	position: absolute;
+	margin-top: 0.6rem;
+	z-index: 2;
+}*/
+.separador {
+    position: absolute;
+    top: -52%;
+    z-index: 2;
+    left: 45%;
+}
+
+.linea-2{
+	margin-top: 8rem;
+	margin-bottom: -10rem;
+}
+
+.linea-3{
+	margin-top: 0rem;
+	padding-bottom: 9rem;
+}
+
+span{
+	color:#2794C7;
+}
+
+.txt-medium{
+	font-weight: 200;
+	font-size: 3rem;
+}
+
+.logo{
+  width: 28rem;
+  margin-bottom: 1rem;
+}
+
+.txt-normal{
+	font-weight: 200;
+	font-size: 1.6rem;
+}
+
+.miss-writing{
+	position: relative;
+	height:40rem;
+	width: 100%;
+	z-index: 1;
+}
+
+
+.list-pasos{
+	position: relative;	
+  display: inline-block;
+  width: 5rem;
+  height: 5rem;
+  border: solid 0.2rem #2794C7;
+  border-radius: 100%;
+  color: #fff;
+  background: #2794C7;
+  text-align: center;
+  font-size: 2.5rem;
+  transition: all .3s ease-in-out;
+  padding-top: 1rem;
+  z-index: 2;
+  bottom: 38rem;
+  margin-left: 52rem;
+}
+
+.mgbtn10{
+	margin-bottom:7rem;
+}
+
+.mgtop5{
+margin-top: 4rem;
+}
+
+iframe{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.contenedor-video{
+	padding-bottom: 56.35%;
+	position: relative;
+	overflow: hidden;
+	height: 0;
+}
+
+.title-pasos{
+	font-weight: 200;
+	padding-bottom: 2rem;
+}
+
+.pd-btn2{
+	padding-bottom: 2rem;
+}
+
+/*Barra azul down*/
+
+.barra-blue-down{
+	background: #2794C7;
+	height: 12rem;
+	width: 100%;
+	margin-top: 5rem;
+}
+
+.title-position{
+	position:absolute;
+	z-index: 2;
+}
+
+.pdt6{
+	padding-top: 2rem;
+}
+
+.pdt65{
+	padding-top: 6rem;
+}
+/*Inicio de footer*/
+.footer-below{
+  height: 12rem;
+  background-color: #1C0A28;
+  padding-top: 1rem;
+}
+
+a:hover{
+  text-decoration: none;
+  color: white;
+}
+
+.interline{
+	line-height: 2.8rem;
+}
+
+.text-redes{
+	margin-top:-10rem;
+	text-align: right;
+}
+
+/*Botones de redes sociales*/
+.btn-social{
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+  border: solid 0.2rem #2794C7;
+  border-radius: 100%;
+  color: #2794C7;
+  background: 0 0;
+  text-align: center;
+  font-size: 1.6rem;
+  line-height: 3.2rem;
+  transition: all .3s ease-in-out;
+}
+
+.btn-social:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+ 	border: solid 0.2rem #fff;
+    color: #2794C7;
+    background: #fff;
+}
+
+.list-inline{
+	padding-top: 1.6rem;
+	padding-bottom: 1.6rem; 
+}
+
+/*CLASES DE LA PÁGINA CONTACTO*/
+/*Propiedades de la imagen contacto*/
+.img-contacto{
+	background-image:url(../image/large.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center;
+	background-size:cover;
+}
+
+.well{
+	background:white;
+	border: none;
+	margin-top: 8rem;
+	padding-top: 1%;
+	margin-left: 21%;
+	height: 37rem;
+}
+
+.respuesta{
+	width: 50%;
+	height: 3rem;
+	margin-left: 10%;
+}
+
+.form-control{
+	margin-bottom:0.8rem;
+}
+
+.formulario{
+	padding-bottom: 1rem;
+	border-bottom: 1px solid gray;
+}
+
+.mgtop5{
+	margin-top: 0.8rem;
+}
+
+.red{
+	color: red;
+}
+
+@media screen and (max-width : 400px) {
+  .well {
+	margin-right: 7%;
+	margin-left: 7%;
+	height: 47rem;
+	margin-top: 8%;
+	}
+ }
+
